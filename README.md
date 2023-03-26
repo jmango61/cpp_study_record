@@ -61,23 +61,28 @@ using namespace std;    // <iostream> 헤더 파일에 선언된 이름을 사�
     
   ```C++
   #include <iostream>
-  #include <string>
+  #include <string>   // string 클래스를 사용하기 위한 헤더 파일 
   using namespace std;
   
   int main(){
-    string song("Falling in love with you");
-    string elvis("Elvis Presley");
-    string singer;
+    string song("Falling in love with you");  // 문자열 song
+    string elvis("Elvis Presley");    // 문자열 elvis
+    string singer;    // 문자열 singer
   
-    cout << song + "를 부른 가수는";
-    cout << "(힌트 : 첫 글자는 " << elvis[0] << ")?";
+    cout << song + "를 부른 가수는";    // +로 문자열 연결
+    cout << "(힌트 : 첫 글자는 " << elvis[0] << ")?";   // [] 연산자 사용
   
-    getline(cin, siger);
-    if(singr == elvis)
+    getline(cin, siger);    // 문자열 입력. getline()은 string 타입의 c++ 문자열을 입력 받기 위해 제공되는 전역 함수. 빈칸을 포함하는 문자열 입력 가능 ! 
+    if(singr == elvis)    // 문자열 비교
       cout << "맞았습니다.";
     else
-      cout << "틀렸습니다." + elvis + "입니다." << endl;
+      cout << "틀렸습니다." + elvis + "입니다." << endl;    // +로 문자열 연결 
   }
+  ```
+  
+  ```c++
+  Falling in love with you를 부른 가수는(힌트 : 첫글자는 E)?Elvis Pride  //빈칸포함
+  틀렸습니다. Elvis Presley입니다.
   ```
   
      

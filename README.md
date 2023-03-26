@@ -84,8 +84,9 @@ using namespace std;    // <iostream> 헤더 파일에 선언된 이름을 사�
   Falling in love with you를 부른 가수는(힌트 : 첫글자는 E)?Elvis Pride  //빈칸포함
   틀렸습니다. Elvis Presley입니다.
   ```
+    
   
-  ** getline() 멤버 함수는 공백이 포함된 문자열을 입력**
+  ** `getline()` 멤버 함수는 공백이 포함된 문자열을 입력**
   
      
   

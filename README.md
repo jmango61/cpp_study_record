@@ -85,6 +85,8 @@ using namespace std;    // <iostream> 헤더 파일에 선언된 이름을 사�
   틀렸습니다. Elvis Presley입니다.
   ```
   
+  ** getline() 멤버 함수는 공백이 포함된 문자열을 입력**
+  
      
   
   
